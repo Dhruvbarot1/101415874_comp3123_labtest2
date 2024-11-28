@@ -1,6 +1,6 @@
 # Weather Forecast App
 
-This project is a weather forecast application built with **ReactJS** and the **OpenWeatherMap API**. The app allows users to view the current weather and a 5-day forecast for any city.
+This project is a weather forecast application built with **ReactJS** and the **OpenWeatherMap API**. The app allows users to view the current weather.
 
 ---
 
