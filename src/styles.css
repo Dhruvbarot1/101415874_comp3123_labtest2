@@ -1,0 +1,110 @@
+/* styles.css */
+
+/* General body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #87ceeb, #f0f4f8);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333; /* Default text color for better visibility */
+  }
+  
+  /* App container */
+  .App {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 40px;
+    width: 420px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Search bar */
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 20px 0 0 20px;
+    border: 2px solid #4caf50;
+    outline: none;
+  }
+  
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Weather info */
+  h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #222; /* Dark shade for better visibility */
+    margin-bottom: 20px;
+  }
+  
+  .weather-info p {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #333; /* Darker color for better contrast */
+    font-weight: 500;
+  }
+  
+  img {
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+  }
+  
+  /* Footer for dynamic updates */
+  .footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 500px) {
+    .App {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    input[type="text"] {
+      width: 60%;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
